@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto, Arial;
+}
+* .wrapper {
+  min-width: 40vw;
+  min-height: 20vh;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px navy;
+}
+* .wrapper .upper {
+  text-align: center;
+  background: rgb(0, 212, 255);
+  background: linear-gradient(90deg, rgb(0, 212, 255) 0%, rgb(166, 165, 187) 0%, rgb(44, 44, 179) 80%);
+}
+* .wrapper .upper h1 {
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+* .wrapper .upper #text {
+  margin: 20px;
+}
+* .wrapper .upper .add {
+  padding: 5px 5px;
+}
+* .wrapper .lower ul {
+  font-family: arial;
+  text-align: center;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 700;
+}
+* .wrapper .lower ul li {
+  list-style: none;
+  margin: 10px auto;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  justify-content: stretch;
+  align-items: center;
+}
+* .wrapper .lower ul li .taskText {
+  border: 2px solid skyblue;
+  background-color: #ddd;
+  margin: 20px 20px;
+  height: 20px;
+  min-width: 50%;
+}
+* .wrapper .lower ul li .taskBtns {
+  padding: 5px;
+  border: 2px solid red;
+  border-radius: 3px;
+  background-color: orange;
+  transition: 0.4s;
+  margin: auto 3px;
+}
+* .wrapper .lower ul li .taskBtns:hover {
+  cursor: pointer;
+  background-color: red;
+}
+* .wrapper .lower ul .startLi {
+  text-align: center;
+}
+* .wrapper .lower ul .task {
+  display: flex;
+}/*# sourceMappingURL=style.css.map */

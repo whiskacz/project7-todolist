@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, Arial,;
+
+    .wrapper{
+        min-width: 40vw;
+        min-height: 20vh;
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px navy;
+        .upper{ 
+            text-align: center;
+            background: rgb(0,212,255);
+            background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(166,165,187,1) 0%, rgba(44,44,179,1) 80%);   
+            
+            h1{
+                color: white;
+                text-align: center;
+                padding: 10px;
+            }
+            #text{
+                margin: 20px;  
+            }
+            .add{
+                padding: 5px 5px;
+            }
+        }
+        .lower{    
+            ul{
+                font-family: arial;
+                text-align: center;
+                padding: 10px;
+                font-size: 20px;
+                font-weight: 700;
+               
+                
+                li{
+                    list-style: none;
+                    margin: 10px auto;
+                    font-size: 14px;
+                    font-weight: 400;
+                    text-align: left;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: stretch;
+                    align-items: center;
+
+
+                    .taskText{
+                        border: 2px solid skyblue;
+                        background-color: #ddd;
+                        margin: 20px 20px;
+                        height: 20px;
+                        min-width: 50%;     
+                    }
+                    
+                    .taskBtns{
+
+                        padding: 5px;
+                        border: 2px solid red;
+                        border-radius: 3px;
+                        background-color: orange;
+                        transition: .4s;
+                        margin: auto 3px;
+
+                        &:hover{
+                            cursor: pointer;
+                            background-color: red;
+                        }
+                    
+                    } 
+                }
+
+                .startLi{
+                    text-align: center;
+                }
+
+                .task{
+                    display: flex;
+        
+                      
+                }
+            }
+        }    
+    }
+}
